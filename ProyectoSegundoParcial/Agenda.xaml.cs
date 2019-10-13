@@ -54,31 +54,31 @@ namespace ProyectoSegundoParcial
             grdFormularioArt.Children.Clear();
         }
 
-        private void TbCod_TextChanged(object sender, TextChangedEventArgs e)
+        private void Cod_TextChanged(object sender, TextChangedEventArgs e)
         {
             txtaviso.Visibility = Visibility.Hidden;
         }
 
-        private void TbDescr_TextChanged(object sender, TextChangedEventArgs e)
+        private void Descr_TextChanged(object sender, TextChangedEventArgs e)
         {
             txtaviso.Visibility = Visibility.Hidden;
         }
 
-        private void TbCosto_TextChanged(object sender, TextChangedEventArgs e)
+        private void Costo_TextChanged(object sender, TextChangedEventArgs e)
         {
             txtaviso.Visibility = Visibility.Hidden;
         }
 
-        private void TbPrecio_TextChanged(object sender, TextChangedEventArgs e)
+        private void Precio_TextChanged(object sender, TextChangedEventArgs e)
         {
             txtaviso.Visibility = Visibility.Hidden;
         }
 
-        private void TbCantidad_TextChanged(object sender, TextChangedEventArgs e)
+        private void Cantidad_TextChanged(object sender, TextChangedEventArgs e)
         {
             txtaviso.Visibility = Visibility.Hidden;
         }
-        private void TbProveedor_TextChanged(object sender, TextChangedEventArgs e)
+        private void Proveedor_TextChanged(object sender, TextChangedEventArgs e)
         {
             txtaviso.Visibility = Visibility.Hidden;
         }

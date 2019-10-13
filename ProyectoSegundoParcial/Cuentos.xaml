@@ -9,27 +9,27 @@
 
     <Grid x:Name="grdFormularioArt" Background="White">
         <TextBlock x:Name="txtCodigo" HorizontalAlignment="Left" Margin="66,111,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontWeight="Bold"><Run Text="Codigo de"/><Run Text="l "/><Run Text="Art"/><Run Text="í"/><Run Text="culo "/><Run Text=":"/></TextBlock>
-        <TextBox x:Name="tbCodA" HorizontalAlignment="Left" Height="23" Margin="228,108,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="161" TextChanged="TbCod_TextChanged" RenderTransformOrigin="0.483,0.348" Background="#FFE4FEFF"/>
+        <TextBox x:Name="tbCodA" HorizontalAlignment="Left" Height="23" Margin="228,108,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="161" TextChanged="Cod_TextChanged" RenderTransformOrigin="0.483,0.348" Background="#FFE4FEFF"/>
 
 
         <TextBlock x:Name="txtDescrP" HorizontalAlignment="Left" Margin="66,152,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontWeight="Bold"><Run Text="Descripcion del "/><Run Text="Artículo :"/></TextBlock>
-        <TextBox x:Name="tbDescP" HorizontalAlignment="Left" Height="24" Margin="228,148,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="161" TextChanged="TbDescr_TextChanged" Background="#FFE4FEFF"/>
+        <TextBox x:Name="tbDescP" HorizontalAlignment="Left" Height="24" Margin="228,148,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="161" TextChanged="Descr_TextChanged" Background="#FFE4FEFF"/>
 
 
         <TextBlock x:Name="txtCosto" HorizontalAlignment="Left" Margin="66,195,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="56" FontWeight="Bold"><Run Text="Costo"/><Run Text=" "/><Run Text=":"/></TextBlock>
-        <TextBox x:Name="tbCosto" HorizontalAlignment="Left" Height="24" Margin="228,191,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="161" TextChanged="TbCosto_TextChanged" Background="#FFE4FEFF"/>
+        <TextBox x:Name="tbCosto" HorizontalAlignment="Left" Height="24" Margin="228,191,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="161" TextChanged="Costo_TextChanged" Background="#FFE4FEFF"/>
 
 
-        <TextBox x:Name="tbPrecipP" HorizontalAlignment="Left" Height="23" Margin="228,235,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="161" TextChanged="TbPrecio_TextChanged" Background="#FFE4FEFF"/>
+        <TextBox x:Name="tbPrecipP" HorizontalAlignment="Left" Height="23" Margin="228,235,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="161" TextChanged="Precio_TextChanged" Background="#FFE4FEFF"/>
         <TextBlock x:Name="txtPrecioP" HorizontalAlignment="Left" Margin="66,238,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="105" FontWeight="Bold"><Run Text="Precio al público "/><Run Text=":"/></TextBlock>
 
 
         <TextBlock x:Name="txtProveedor" HorizontalAlignment="Left" Margin="66,287,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="69" FontWeight="Bold"><Run Text="Proveedor"/><Run Text=" :"/></TextBlock>
-        <TextBox x:Name="tbProv" HorizontalAlignment="Left" Height="23" Margin="228,283,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="161" TextChanged="TbProveedor_TextChanged" Background="#FFE4FEFF"/>
+        <TextBox x:Name="tbProv" HorizontalAlignment="Left" Height="23" Margin="228,283,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="161" TextChanged="Proveedor_TextChanged" Background="#FFE4FEFF"/>
 
 
         <TextBlock x:Name="txtCantidad" HorizontalAlignment="Left" Margin="66,334,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="157" FontWeight="Bold" Text="Cantidad :"/>
-        <TextBox x:Name="tbCantidad" HorizontalAlignment="Left" Height="23" Margin="228,330,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="161" TextChanged="TbCantidad_TextChanged" Background="#FFE4FEFF"/>
+        <TextBox x:Name="tbCantidad" HorizontalAlignment="Left" Height="23" Margin="228,330,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="161" TextChanged="Cantidad_TextChanged" Background="#FFE4FEFF"/>
 
 
         <TextBlock x:Name="txtEdicion" HorizontalAlignment="Left" Margin="66,384,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="157" FontWeight="Bold"><Run Text="Edición especial"/><Run Text=" :"/></TextBlock>
@@ -41,8 +41,8 @@
         <ComboBox x:Name="cbDesc" HorizontalAlignment="Left" Margin="623,111,0,0" VerticalAlignment="Top" Width="136">
             <ComboBox.Background>
                 <LinearGradientBrush EndPoint="0,1" StartPoint="0,0">
-                    <GradientStop Color="#FFF0F0F0" Offset="0"/>
-                    <GradientStop Color="#FF8CF0FF" Offset="1"/>
+                    <GradientStop Color="#FFE4FEFF" Offset="0"/>
+                    <GradientStop Color="#FFE4FEFF" Offset="1"/>
                 </LinearGradientBrush>
             </ComboBox.Background>
             <ComboBoxItem>10%</ComboBoxItem>

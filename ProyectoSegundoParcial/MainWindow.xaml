@@ -5,10 +5,12 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ProyectoSegundoParcial"
         mc:Ignorable="d"
-        Title="MainWindow" Height="600" Width="920">
+        Title="MainWindow" Height="700" Width="920">
 
     <Grid Background="#FFB4EAFF">
-        <ComboBox x:Name="cbPapeleria" HorizontalAlignment="Left" Margin="98,31,0,0" VerticalAlignment="Top" Width="205" SelectionChanged="cbPapeleria_SelectionChanged">
+        <Label Content="Articulo: " HorizontalAlignment="Left" Margin="29,83,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+
+        <ComboBox x:Name="cbPapeleria" HorizontalAlignment="Left" Margin="98,86,0,0" VerticalAlignment="Top" Width="205" SelectionChanged="cbPapeleria_SelectionChanged">
             <ComboBox.Background>
                 <LinearGradientBrush EndPoint="0,1" StartPoint="0,0">
                     <GradientStop Color="#FFF0F0F0" Offset="0"/>
@@ -25,9 +27,11 @@
 
         </ComboBox>
 
-        <Button x:Name="btnAgregar" Content="Agregar" HorizontalAlignment="Left" Margin="373,28,0,0" VerticalAlignment="Top" Width="91" Click="BtnAgregar" Background="White" Height="24"/>
-        <Label Content="Articulo: " HorizontalAlignment="Left" Margin="29,28,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
-        <Grid x:Name="grdArticulos" HorizontalAlignment="Left" Height="476" Margin="29,70,0,0" VerticalAlignment="Top" Width="852">
+        <Button x:Name="btnAgregar" Content="Agregar" HorizontalAlignment="Left" Margin="373,83,0,0" VerticalAlignment="Top" Width="91" Click="BtnAgregar" Background="White" Height="24"/>
+        <Label Content="PAPELERIA" HorizontalAlignment="Left" Margin="373,10,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="36" Height="58" Width="211"/>
+        <Label Content="Blanca Lidia Castellanos Solis" HorizontalAlignment="Left" Margin="29,615,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="16" Height="35" Width="850"/>
+        <Grid x:Name="grdArticulos" HorizontalAlignment="Left" Height="476" Margin="29,134,0,0" VerticalAlignment="Top" Width="852">
+        
 
         </Grid>
     </Grid>
