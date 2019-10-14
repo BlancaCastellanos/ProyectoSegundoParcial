@@ -56,31 +56,76 @@ namespace ProyectoSegundoParcial
 
         private void Cod_TextChanged(object sender, TextChangedEventArgs e)
         {
-            txtaviso.Visibility = Visibility.Hidden;
+
+            if (tbCodA.Text == "")
+            {
+                txtaviso.Visibility = Visibility.Visible;
+            }
+            else
+            {
+                txtaviso.Visibility = Visibility.Hidden;
+            }
         }
 
         private void Descr_TextChanged(object sender, TextChangedEventArgs e)
         {
-            txtaviso.Visibility = Visibility.Hidden;
+
+            if (tbDescP.Text == "")
+            {
+                txtaviso.Visibility = Visibility.Visible;
+            }
+            else
+            {
+                txtaviso.Visibility = Visibility.Hidden;
+            }
         }
 
         private void Costo_TextChanged(object sender, TextChangedEventArgs e)
         {
-            txtaviso.Visibility = Visibility.Hidden;
+
+            if (tbCosto.Text == "")
+            {
+                txtaviso.Visibility = Visibility.Visible;
+            }
+            else
+            {
+                txtaviso.Visibility = Visibility.Hidden;
+            }
         }
 
         private void Precio_TextChanged(object sender, TextChangedEventArgs e)
         {
-            txtaviso.Visibility = Visibility.Hidden;
+            if (tbPrecipP.Text == "")
+            {
+                txtaviso.Visibility = Visibility.Visible;
+            }
+            else
+            {
+                txtaviso.Visibility = Visibility.Hidden;
+            }
         }
 
         private void Cantidad_TextChanged(object sender, TextChangedEventArgs e)
         {
-            txtaviso.Visibility = Visibility.Hidden;
+            if (tbCantidad.Text == "")
+            {
+                txtaviso.Visibility = Visibility.Visible;
+            }
+            else
+            {
+                txtaviso.Visibility = Visibility.Hidden;
+            }
         }
         private void Proveedor_TextChanged(object sender, TextChangedEventArgs e)
         {
-            txtaviso.Visibility = Visibility.Hidden;
+            if (tbProv.Text == "")
+            {
+                txtaviso.Visibility = Visibility.Visible;
+            }
+            else
+            {
+                txtaviso.Visibility = Visibility.Hidden;
+            }
         }
 
     }
